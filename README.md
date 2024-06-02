@@ -30,25 +30,28 @@ python --version # 3.10
 
 ### 手动安装依赖
 1. 安装`pytorch`及其核心依赖，若已安装则跳过。参考自: https://pytorch.org/get-started/locally/
-	```bash
+```bash
 pip install torch torchvision torchaudio
 ```
 
 3. 根据自己的显卡安装对应依赖
 - N卡
-	```bash
+```bash
 pip install -r requirements.txt
 ```
 
 4. downolad models
-- ```bash
+- 
+```bash
 wget https://github.com/RVC-Project/RVC-Models-Downloader/releases/download/v0.2.2/rvcmd_linux_amd64.deb
 ```
-- ```bash
+- 
+```bash
 sudo apt install ./rvcmd_linux_amd64.deb
 ```
 
-- ```bash
+- 
+```bash
 rvcmd -notrs -w 1 -notui assets/all
 ```
 
