@@ -21,7 +21,7 @@
 </div>
 
 <div>
-	<mark>Make sure create new conda environment with python 3.10</mark>
+	<mark>Make sure to create new conda environment with python 3.10</mark> <br>
 </div>
 
 ```bash
