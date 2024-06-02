@@ -40,19 +40,25 @@ pip install torch torchvision torchaudio
 pip install -r requirements.txt
 ```
 
-4. downolad the models:
-1. 
+## Download the Models
+
+Follow these steps to download and install the models:
+
+1. Download the `.deb` package:
 ```bash
 wget https://github.com/RVC-Project/RVC-Models-Downloader/releases/download/v0.2.2/rvcmd_linux_amd64.deb
 ```
-2. 
+
+2. Install the downloaded package:
 ```bash
 sudo apt install ./rvcmd_linux_amd64.deb
 ```
-3. 
+
+3. Run the command to download all assets:
 ```bash
 rvcmd -notrs -w 1 -notui assets/all
 ```
+
 
 
 ### 2. 安装 ffmpeg 工具
