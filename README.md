@@ -40,17 +40,17 @@ pip install torch torchvision torchaudio
 pip install -r requirements.txt
 ```
 
-4. downolad models
-- 
+4. downolad the models
+a- 
 ```bash
 wget https://github.com/RVC-Project/RVC-Models-Downloader/releases/download/v0.2.2/rvcmd_linux_amd64.deb
 ```
-- 
+b- 
 ```bash
 sudo apt install ./rvcmd_linux_amd64.deb
 ```
 
-- 
+c- 
 ```bash
 rvcmd -notrs -w 1 -notui assets/all
 ```
