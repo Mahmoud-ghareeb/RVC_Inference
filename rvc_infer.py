@@ -36,7 +36,7 @@ def rvc_inference(model_name: str,
     vc = VC(config)
     vc.get_vc(model_name)
 
-    audios = os.listdir(input_path)
+    audios = sorted(os.listdir(input_path))
 
     for file in tq.tqdm(audios):
         if file.endswith(".wav"):
