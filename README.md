@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>RVC Inference</h1>
-
+</div>
 <div>
 	<mark>Make sure to create new conda environment with python 3.10</mark> <br>
 </div>
